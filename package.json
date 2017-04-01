@@ -1,0 +1,30 @@
+{
+  "name": "unserialize-js",
+  "version": "1.0.0",
+  "description": "Unserialization utility for javascript to parse http query strings and convert them back into their native objects",
+  "main": "unserializeDeep.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bj7/unserializeJs.git"
+  },
+  "keywords": [
+    "http",
+    "query",
+    "unserialize"
+  ],
+  "author": "bj7 <jjbernitt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bj7/unserializeJs/issues"
+  },
+  "homepage": "https://github.com/bj7/unserializeJs#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
