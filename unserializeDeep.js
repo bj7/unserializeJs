@@ -17,7 +17,7 @@ function buildDeepObject(props, obj, input, isArrayType) {
         if (typeof obj === 'object' && Object.keys(obj).length <= 0) {
             obj = [];
         }
-        obj.push(input);
+        obj.push(decodeURIComponent(input));
         return obj;
     } else if (props.length === 0) {
         return input;
